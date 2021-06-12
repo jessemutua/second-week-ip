@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: auto;
+    backgroumage: url(/images/oEdpRw.jpg);
+    background-repeat: no-repeat;
+    
+}
+.comfort{
+    font-style: italic;
+    color: blue;
+
+}
+
+.parent{
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 670px;
+    padding: 0;
+    background-size: cover;
+}            
