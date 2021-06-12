@@ -1,16 +1,16 @@
 *{
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
 }
 
 body{
-    margin 50%
     height: 100vh;
     width: auto;
-    background-image: url(/images/oEdpRw.jpg);
+    backgroumage: url(/images/oEdpRw.jpg);
     background-repeat: no-repeat;
+    
 }
-.svg-image{
+.comfort{
+    font-style: italic;
+    color: blue;
 
 }
