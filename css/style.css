@@ -1,24 +1,43 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
     width: auto;
     backgroumage: url(/images/oEdpRw.jpg);
     background-repeat: no-repeat;
-    
 }
-.comfort{
+
+.comfort {
     font-style: italic;
     color: blue;
-
 }
 
-.parent{
+.parent {
     margin-top: 10px;
     margin-bottom: 0;
     height: 670px;
     padding: 0;
     background-size: cover;
-}            
+}
+
+.Names {
+    float: right;
+}
+
+.Male {
+    font-style: oblique;
+    color: tomato;
+}
+
+.female {
+    font-style: oblique;
+    color: tomato;
+}
+
+.head {
+    font-style: italic;
+    text-align: center;
+    color: brown;
+}

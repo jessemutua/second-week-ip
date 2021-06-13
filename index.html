@@ -1,59 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Name</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
-    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <div class="container-fluid">
-        
-          <div class="row">
-            <div class="col-md-6">
-              
-                  <div class="overlay">
-                    <h1 class="text-capitalize akan">Akan Names</h1>
-                    <p class="p-text">Depending on when you were born, the Akan give you a name hence the name "Akan Names"
-                        These names give meaning to one's life. 
-                   
-                    <p class="text-danger">Want to know your Akan Name?</p>
-                </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="year" class="labels">Year</label>
-            <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="1870" max="2021">
-          </div>
-          
-          <div class="form-group">
-            <label for="month" class="labels">Month</label>
-            <input type="number" class="form-control" placeholder="Enter the month of the year" id="month" required min="0" max="12">
-          </div>
-          <div class="form-group">
-            <label for="monthDay" class="labels"Day of the month</label>
-            <input type="number" placeholder="Date of the month" class="form-control" id="monthday" required min="0" max="12">
-          </div>
-          <form class="radio-button">
-            <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
-            <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
-          </form>
-          <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Get Akan Name</button></a>
-          <h1 id="result"></h1>
-            
 
+        <div class="row">
+            <div class="col-md-6">
+
+                <div class="overlay">
+                    <h1 class="head">Akan Names</h1>
+                    <p class="p-text">Depending on when you were born, the Akan give you a name hence the name "Akan Names" These names give meaning to one's life.
+                        <p class="text-align-centre">Here are the male names depending on when you were born
+
+                            <div class="Names">
+                                <h1 div class="Male">Male Names</h1>
+                                <ol>
+                                    <li>Sunday - Kwasi</li>
+                                    <li>Monday - Kwadwo</li>
+                                    <li> Tuesday - Kwabena</li>
+                                    <li>Wednesday - Kwaku</li>
+                                    <li>Thursday - Yaw</li>
+                                    <li>Friday - Kofi</li>
+                                    <li>Saturday - Kwame</li>
+                                </ol>
+                            </div>
+                            <h2 div class="female">Female Names.
+
+                            </h2>
+                            <ol>
+                                <li>Sunday - Akosua</li>
+                                <li>Monday - Adwoa</li>
+                                <li> Tuesday -Abenaa</li>
+                                <li> Wednesday - Akua</li>
+                                <li>Thursday - Yaa</li>
+                                <li>Friday - Afua</li>
+                                <li>Saturday - Ama</li>
+                            </ol>
+                </div>
+
+
+
+
+
+
+
+
+                </p>
+                <p class="text-danger">Want to know your Akan Name?</p>
+            </div>
         </div>
     </div>
-  </div>
-</div>
+    <div class="form-group">
+        <label for="year" class="labels">Year</label>
+        <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="1870" max="2021">
+    </div>
 
-           
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>    
-      <script src="./js.scripts.js"></script>
+    <div class="form-group">
+        <label for="month" class="labels">Month</label>
+        <input type="number" class="form-control" placeholder="Enter the month of the year" id="month" required min="0" max="12">
+    </div>
+    <div class="form-group">
+        <label for="monthDay" class="labels" Day of the month></label>
+        <input type="number" placeholder="Date of the month" class="form-control" id="monthday" required min="0" max="12">
+    </div>
+    <form class="radio-button">
+        <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+        <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+        <div class="errormessage" id="Invalid"></div>
+    </form>
+    <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Get Akan Name</button></a>
+    <h1 id="result"></h1>
+
+    <div class="output"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./js.scripts.js"></script>
 </body>
+
 </html>
