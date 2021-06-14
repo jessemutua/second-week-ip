@@ -1,7 +1,21 @@
 # AKAN NAMES
     THis project is about a web application that determines your Akan name.An Akan name is name 
     that the people of Akan from Ghana gave new borns depending on when they were born and their gender. 
+## Authors information.
+     Jesse Mutua
 
+
+### Set up;
+    To set up, git clone https://github.com/jessemutua/second-week-ip.git
+    Navigate to Akan-Names directory and open your code editor and go live.
+
+### Technologies used.\
+    HTML
+    CSS
+    Bootstrap
+    JavaScript
+
+### BDD
 
 ####   LICENSE
  Copyright <2021> <Jesse> 
