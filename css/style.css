@@ -5,7 +5,7 @@
 body {
     height: 100vh;
     width: auto;
-    backgroumage: url(/images/oEdpRw.jpg);
+    background-image: url(/images/oEdpRw.jpg);
     background-repeat: no-repeat;
 }
 
@@ -28,12 +28,12 @@ body {
 
 .Male {
     font-style: oblique;
-    color: tomato;
+    color: rgb(255, 0, 34);
 }
 
 .female {
     font-style: oblique;
-    color: tomato;
+    color: rgb(255, 0, 0);
 }
 
 .head {
@@ -44,4 +44,16 @@ body {
 
 body {
     text-align: center;
+}
+
+.start {
+    color: gold;
+}
+
+.sec {
+    color: gold;
+}
+
+.text-md-right {
+    color: honeydew;
 }

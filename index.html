@@ -21,12 +21,12 @@
 
                 <div class="overlay">
                     <h1 class="head">Akan Names</h1>
-                    <p class="p-text">Depending on when you were born, the Akan give you a name hence the name "Akan Names" These names give meaning to one's life.
-                        <p class="text-align-centre">Here are the male names depending on when you were born
+                    <p class="start">Depending on when you were born, the Akan give you a name hence the name "Akan Names" These names give meaning to one's life.
+                        <p class="sec">Here are the male names depending on when you were born
 
                             <div class="Names">
                                 <h1 div class="Male">Male Names</h1>
-                                <ol>
+                                <ol style="color: yellow;">
                                     <li>Sunday - Kwasi</li>
                                     <li>Monday - Kwadwo</li>
                                     <li>Tuesday - Kwabena</li>
@@ -39,7 +39,7 @@
                             <h2 div class="female">Female Names.
 
                             </h2>
-                            <ol>
+                            <ol style="color: yellow;">
                                 <li>Sunday - Akosua</li>
                                 <li>Monday - Adwoa</li>
                                 <li> Tuesday -Abenaa</li>
@@ -58,16 +58,13 @@
 
 
                 </p>
-                <p class="text-danger">Want to know your Akan Name?</p>
+                <p class="text-md-right">Want to know your Akan Name?</p>
             </div>
         </div>
     </div>
 
     <div class="labels">
-        <div class="form-group">
-            <label for="Century" class="labels">Century</label>
-            <input type="number" placeholder="Enter the Century" class="form-control" id="Century" required min="19" max="21">
-        </div>
+
         <div class="form-group">
             <label for="year" class="labels">Year</label>
             <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0" max="100">
@@ -79,14 +76,14 @@
         </div>
         <div class="form-group">
             <label for="monthDay" class="labels" Day of the month></label>
-            <input type="number" placeholder="Date of the month" class="form-control" id="monthday" required min="0" max="12">
+            <input type="number" placeholder="Date of the month" class="form-control" id="monthday" required min="0" max="">
         </div>
         <form class="radio-button">
-            <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
-            <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+            <input type="radio" class="gendersLabels" value="male" id="rad1" name="rads" required>Male
+            <input type="radio" class="gendersLabels" value="female" id="rad1" name="rads" required>Female
             <div class="errormessage" id="Invalid"></div>
         </form>
-        <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Get Akan Name</button></a>
+        <button type="button" name="button" class="btn btn-primary mb-2" onclick="getInput()">Get Akan Name</button>
         <h1 id="result"></h1>
 
         <div class="output"></div>
@@ -97,7 +94,7 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
+    <script src="./scripts.js"></script>
 </body>
 
 </html>
