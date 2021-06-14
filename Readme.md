@@ -18,7 +18,13 @@
 ### BDD
     Century - The century the user was born *eg 21*
     Year - The year they were born eg *2 year*
-    Month - 
+    Month - The month the user was born in *eg 2*
+    Day - The day of the month the user was *eg 23*
+
+
+### Contact information.
+    To reach me email jm@76.gmail.com
+    
 
 ####   LICENSE
  Copyright <2021> <Jesse> 
