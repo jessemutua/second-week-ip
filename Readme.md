@@ -16,6 +16,9 @@
     JavaScript
 
 ### BDD
+    Century - The century the user was born *eg 21*
+    Year - The year they were born eg *2 year*
+    Month - 
 
 ####   LICENSE
  Copyright <2021> <Jesse> 
