@@ -1,5 +1,6 @@
-
-
+# AKAN NAMES
+    THis project is about a web application that determines your Akan name.An Akan name is name 
+    that the people of Akan from Ghana gave new borns depending on when they were born and their gender. 
 
 
 ####   LICENSE
