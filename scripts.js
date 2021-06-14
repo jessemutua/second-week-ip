@@ -101,5 +101,8 @@ function checkGender() {
             }
             break
         default:
-            console.log("pass");
+            console.log("Authorise");
+
     }
+
+}
